@@ -31,7 +31,7 @@ app.use(bodyParser.json({ limit: "30mb", extended: true }));
 app.use(bodyParser.urlencoded({ limit: "30mb", extended: true }));
 app.use(
   cors({
-    origin: "https://nicolatantera.github.io/", // or "*" to allow all origins (not recommended for production)
+    origin: "https://nicolatantera.github.io", // or "*" to allow all origins (not recommended for production)
     methods: ["GET", "POST", "PUT", "DELETE"],
   })
 );
